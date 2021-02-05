@@ -14,9 +14,9 @@ var full_address=addr_street+","+addr_streettwo+","+addr_city+","+addr_state+","
 
 var phone=$("#element_4").val();
 
-var first_dd=$("#element_12_dd").val();
-var first_mm=$("#element_12_mm").val();
-var first_yy=$("#element_12_yyyy").val();
+var first_dd=$("#element_12_1").val();
+var first_mm=$("#element_12_2").val();
+var first_yy=$("#element_12_3").val();
 var firstEntry=first_mm+"/"+first_dd+"/"+first_yy;
 
 //var doemm=$("#element_22_1").val();
@@ -47,9 +47,9 @@ var app_sig=$("#element_8").val();
 var coc=$("#element_13").val();
 var cor=$("#element_14").val();
 
-var today_dd=$("#element_9_dd").val();
-var today_mm=$("#element_9_mm").val();
-var today_yy=$("#element_9_yyyy").val();
+var today_dd=$("#element_9_1").val();
+var today_mm=$("#element_9_2").val();
+var today_yy=$("#element_9_3").val();
 var today=today_mm+"/"+today_dd+"/"+today_yy;
 
 var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&fa="+full_address+"&ph="+phone+"&fe="+firstEntry+"&pov="+position_value+"&sig="+app_sig+"&coc="+coc+"&cor="+cor+"&today="+today;
