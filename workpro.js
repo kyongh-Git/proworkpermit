@@ -40,7 +40,7 @@ else if(position=="6")
 }
 else
 {
-	position_value="Other";
+	position_value=$("#element_17").val();
 }
 
 var app_sig=$("#element_8").val();
