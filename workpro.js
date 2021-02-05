@@ -25,23 +25,23 @@ var firstEntry=first_mm+"/"+first_dd+"/"+first_yy;
 
 
 var position=$("input[name='element_5']:checked").val();
-/*var position_value;
-if(position=="1")
+var position_value;
+if(position=="4")
 {
 	position_value="Faculty";
 }
-else if(position=="2")
+else if(position=="5")
 {
 	position_value="Post Doc/Researcher";
 }
-else if(position=="3")
+else if(position=="6")
 {
 	position_value="Staff";
 }
 else
 {
 	position_value="Other";
-}*/
+}
 
 var app_sig=$("#element_8").val();
 var coc=$("#element_13").val();
