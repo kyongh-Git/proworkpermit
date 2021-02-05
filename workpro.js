@@ -32,7 +32,7 @@ if(position=="4")
 }
 else if(position=="5")
 {
-	position_value="Post Doc/Researcher";
+	position_value="PostDoc/Researcher";
 }
 else if(position=="6")
 {
@@ -52,7 +52,7 @@ var today_mm=$("#element_9_2").val();
 var today_yy=$("#element_9_3").val();
 var today=today_mm+"/"+today_dd+"/"+today_yy;
 
-var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&fa="+full_address+"&ph="+phone+"&fe="+firstEntry+"&pov="+position+"&sig="+app_sig+"&coc="+coc+"&cor="+cor+"&today="+today;
+var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&fa="+full_address+"&ph="+phone+"&fe="+firstEntry+"&pov="+position_value+"&sig="+app_sig+"&coc="+coc+"&cor="+cor+"&today="+today;
 var url = "https://okstate.forms-db.com/view.php?id=702651"+querystring;
 $("#element_15").val(url);
 });
