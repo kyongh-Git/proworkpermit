@@ -25,7 +25,7 @@ var firstEntry=first_mm+"/"+first_dd+"/"+first_yy;
 
 
 var position=$("input[name='element_5']:checked").val();
-var position_value;
+/*var position_value;
 if(position=="1")
 {
 	position_value="Faculty";
@@ -41,7 +41,7 @@ else if(position=="3")
 else
 {
 	position_value="Other";
-}
+}*/
 
 var app_sig=$("#element_8").val();
 var coc=$("#element_13").val();
@@ -52,7 +52,7 @@ var today_mm=$("#element_9_2").val();
 var today_yy=$("#element_9_3").val();
 var today=today_mm+"/"+today_dd+"/"+today_yy;
 
-var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&fa="+full_address+"&ph="+phone+"&fe="+firstEntry+"&pov="+position_value+"&sig="+app_sig+"&coc="+coc+"&cor="+cor+"&today="+today;
+var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&fa="+full_address+"&ph="+phone+"&fe="+firstEntry+"&pov="+position+"&sig="+app_sig+"&coc="+coc+"&cor="+cor+"&today="+today;
 var url = "https://okstate.forms-db.com/view.php?id=702651"+querystring;
 $("#element_15").val(url);
 });
