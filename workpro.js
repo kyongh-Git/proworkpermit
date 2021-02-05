@@ -12,7 +12,7 @@ var addr_zip=$("#element_3_5").val();
 var addr_country=$("#element_3_6").val();
 var full_address=addr_street+","+addr_streettwo+","+addr_city+","+addr_state+","+addr_zip+","+addr_country;
 
-var phone=$("#element_4").val();
+var phone=$("#element_16").val();
 
 var first_dd=$("#element_12_1").val();
 var first_mm=$("#element_12_2").val();
