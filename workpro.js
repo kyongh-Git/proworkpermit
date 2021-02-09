@@ -50,8 +50,8 @@ var app_sig=$("#element_8").val();
 var coc=$("#element_13").val();
 var cor=$("#element_14").val();
 
-var today_dd=$("#element_9_1").val();
-var today_mm=$("#element_9_2").val();
+var today_dd=$("#element_9_2").val();
+var today_mm=$("#element_9_1").val();
 var today_yy=$("#element_9_3").val();
 var today=today_mm+"/"+today_dd+"/"+today_yy;
 
