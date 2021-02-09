@@ -14,8 +14,8 @@ var full_address=addr_street+"^"+addr_streettwo+"^"+addr_city+"^"+addr_state+"^"
 
 var phone=$("#element_16").val();
 
-var first_dd=$("#element_12_1").val();
-var first_mm=$("#element_12_2").val();
+var first_dd=$("#element_12_2").val();
+var first_mm=$("#element_12_1").val();
 var first_yy=$("#element_12_3").val();
 var firstEntry=first_mm+"/"+first_dd+"/"+first_yy;
 
@@ -28,15 +28,18 @@ var position=$("input[name='element_5']:checked").val();
 var position_value;
 if(position=="4")
 {
-	position_value="Faculty";
+	position_value=position;
+	//position_value="Faculty";
 }
 else if(position=="5")
 {
-	position_value="PostDoc/Researcher";
+	position_value=position;
+	//position_value="PostDoc/Researcher";
 }
 else if(position=="6")
 {
-	position_value="Staff";
+	position_value=position;
+	//position_value="Staff";
 }
 else
 {

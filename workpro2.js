@@ -57,9 +57,17 @@ $("#element_40").val(vs);
 //type of position
 arr = urlparam[8].split(",");
 vs=arr[0];
-if(vs=="PostDoc/Researcher")
+if(vs=="4")
 {
-    $("#element_41").val("Post Doc/Researcher");
+    $("#element_41").val("Faculty");
+}
+else if(vs=="5")
+{
+	 $("#element_41").val("Post Doc/Researcher");
+}
+else if(vs=="6")
+{
+	 $("#element_41").val("Staff");
 }
 else
 {
