@@ -2,9 +2,9 @@ $(function() {
 	GetParameterValues();
 function GetParameterValues() { 
 //get the URL   
-//var url = window.location.href.slice(window.location.href.indexOf('?') +1).split('&');
-var url_org = "id=702651&CWID=A11746276&ln=Kim&fn=Yonghwan&fa=71S%20University%20Apartment^^Stillwater^Oklahoma^74075^United%20States&ph=798-789-7894&fe=3/2/2021&pov=PostDoc/Researcher&sig=Oklahoma&coc=United%20States&cor=Oklahoma&today=24/2/2021";
-var url = url_org.split('&');
+var url = window.location.href.slice(window.location.href.indexOf('?') +1).split('&');
+//var url_org = "id=702651&CWID=A11746276&ln=Kim&fn=Yonghwan&fa=71S%20University%20Apartment^^Stillwater^Oklahoma^74075^United%20States&ph=798-789-7894&fe=3/2/2021&pov=PostDoc/Researcher&sig=Oklahoma&coc=United%20States&cor=Oklahoma&today=24/2/2021";
+//var url = url_org.split('&');
 var urlparam = String(url).split('=');
 
 //CWID
