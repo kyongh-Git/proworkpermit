@@ -11,7 +11,6 @@ var urlparam = String(url).split('=');
 var arr = urlparam[2].split(",");
 var vs=arr[0];
 $("#element_1").val(vs);
-document.write(vs);
 
 //last name
 arr = urlparam[3].split(",");
