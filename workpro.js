@@ -10,7 +10,7 @@ var addr_city=$("#element_3_3").val();
 var addr_state=$("#element_3_4").val();
 var addr_zip=$("#element_3_5").val();
 var addr_country=$("#element_3_6").val();
-var full_address=addr_street+"^"+addr_streettwo+"^"+addr_city+"^"+addr_state+"^"+addr_zip+"^"+addr_country;
+var full_address=addr_street+"+"+addr_streettwo+"+"+addr_city+"+"+addr_state+"+"+addr_zip+"+"+addr_country;
 
 var phone=$("#element_16").val();
 
