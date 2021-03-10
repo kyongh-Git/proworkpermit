@@ -1,6 +1,16 @@
 $(function() {
 $("#submit_form").click(function(e){
-var CWID=$("#element_1").val();
+var CWID;
+
+if($("#element_1").val() == "")
+{
+	CWID="emp";
+}
+else
+{
+	CWID=$("#element_1").val();
+}
+
 var lastName= $("#element_2_2").val();
 var firstName=$("#element_2_1").val();
 //local address

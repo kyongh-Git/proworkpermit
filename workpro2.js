@@ -10,7 +10,14 @@ var urlparam = String(url).split('=');
 //CWID
 var arr = urlparam[2].split(",");
 var vs=arr[0];
-$("#element_1").val(vs);
+if(vs="emp")
+{
+	$("#element_1").val("");
+}
+else
+{
+	$("#element_1").val(vs);
+}
 
 //last name
 arr = urlparam[3].split(",");
