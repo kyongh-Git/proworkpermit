@@ -56,13 +56,18 @@ arr = urlparam[6].split(",");
 vs=arr[0];
 $("#element_39").val(vs);
 
-//first date of entry
+//email
 arr = urlparam[7].split(",");
+vs=arr[0];
+$("#element_43").val(vs);
+
+//first date of entry
+arr = urlparam[8].split(",");
 vs=arr[0];
 $("#element_40").val(vs);
 
 //type of position
-arr = urlparam[8].split(",");
+arr = urlparam[9].split(",");
 vs=arr[0];
 if(vs=="4")
 {
@@ -82,22 +87,22 @@ else
 }
 
 //signature
-arr = urlparam[9].split(",");
+arr = urlparam[10].split(",");
 vs=arr[0];
 $("#element_8").val(vs.replaceAll("%20", " ").replaceAll("%11",","));
 
 //COC
-arr = urlparam[10].split(",");
+arr = urlparam[11].split(",");
 vs=arr[0];
 $("#element_36").val(vs.replaceAll("%20", " ").replaceAll("%11",","));
 
 //COR
-arr = urlparam[11].split(",");
+arr = urlparam[12].split(",");
 vs=arr[0];
 $("#element_37").val(vs.replaceAll("%20", " ").replaceAll("%11",","));
 
 //today
-arr = urlparam[12].split(",");
+arr = urlparam[13].split(",");
 vs=arr[0];
 $("#element_42").val(vs.replaceAll("%11", ","));
 
