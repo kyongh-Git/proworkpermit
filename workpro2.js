@@ -22,12 +22,12 @@ else
 //last name
 arr = urlparam[3].split(",");
 vs=arr[0];
-$("#element_2_2").val(vs);
+$("#element_2_2").val(vs.replaceAll("%20", " "));
 
 //first name
 arr = urlparam[4].split(",");
 vs=arr[0];
-$("#element_2_1").val(vs);
+$("#element_2_1").val(vs.replaceAll("%20", " "));
 
 //address
 arr = urlparam[5].split(",");
