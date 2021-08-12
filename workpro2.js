@@ -10,7 +10,7 @@ var urlparam = String(url).split('=');
 //CWID
 var arr = urlparam[2].split(",");
 var vs=arr[0];
-if(vs="emp")
+if(vs=="emp")
 {
 	$("#element_1").val("");
 }
